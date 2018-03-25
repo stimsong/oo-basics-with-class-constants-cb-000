@@ -15,8 +15,6 @@ class Shoe
   end
 
   def brand=(brand)
-    brand.each do |new_brand|
-      if BRANDS.include? new_brand
     BRANDS << brand
   end
 
